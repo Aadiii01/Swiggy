@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { IoIosArrowDown } from "react-icons/io";
 import { IoIosArrowUp } from "react-icons/io";
-import ItemsList from "./Itemlist";
+import ItemsList from "./ItemList";
 
 function Cardlist({ title, items }) {
 
