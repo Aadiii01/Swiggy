@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'bgap';
+    src: url('./Utils/fonts/BasisGrotesqueArabicPro-Black.ttf');
+    /* src: url('./Utils/fonts/BasisGrotesqueArabicPro-Bold.ttf'); */
+    /* src: url('./Utils/fonts/BasisGrotesqueArabicPro-Light.ttf'); */
+    /* src: url('./Utils/fonts/BasisGrotesqueArabicPro-Medium.ttf'); */
+    /* src: url('./Utils/fonts/BasisGrotesqueArabicPro-Regular.ttf'); */
+}
+@font-face {
+    font-family: 'bgapb';
+    /* src: url('./Utils/fonts/BasisGrotesqueArabicPro-Black.ttf'); */
+    src: url('./Utils/fonts/BasisGrotesqueArabicPro-Bold.ttf');
+    /* src: url('./Utils/fonts/BasisGrotesqueArabicPro-Light.ttf'); */
+    /* src: url('./Utils/fonts/BasisGrotesqueArabicPro-Medium.ttf'); */
+    /* src: url('./Utils/fonts/BasisGrotesqueArabicPro-Regular.ttf'); */
+}
+@font-face {
+    font-family: 'bgapl';
+    /* src: url('./Utils/fonts/BasisGrotesqueArabicPro-Black.ttf'); */
+    /* src: url('./Utils/fonts/BasisGrotesqueArabicPro-Bold.ttf'); */
+    src: url('./Utils/fonts/BasisGrotesqueArabicPro-Light.ttf');
+    /* src: url('./Utils/fonts/BasisGrotesqueArabicPro-Medium.ttf'); */
+    /* src: url('./Utils/fonts/BasisGrotesqueArabicPro-Regular.ttf'); */
+}
+@font-face {
+    font-family: 'bgapm';
+    /* src: url('./Utils/fonts/BasisGrotesqueArabicPro-Black.ttf'); */
+    /* src: url('./Utils/fonts/BasisGrotesqueArabicPro-Bold.ttf'); */
+    /* src: url('./Utils/fonts/BasisGrotesqueArabicPro-Light.ttf'); */
+    src: url('./Utils/fonts/BasisGrotesqueArabicPro-Medium.ttf');
+    /* src: url('./Utils/fonts/BasisGrotesqueArabicPro-Regular.ttf'); */
+}
+@font-face {
+    font-family: 'bgapr';
+    /* src: url('./Utils/fonts/BasisGrotesqueArabicPro-Black.ttf'); */
+    /* src: url('./Utils/fonts/BasisGrotesqueArabicPro-Bold.ttf'); */
+    /* src: url('./Utils/fonts/BasisGrotesqueArabicPro-Light.ttf'); */
+    /* src: url('./Utils/fonts/BasisGrotesqueArabicPro-Medium.ttf'); */
+    src: url('./Utils/fonts/BasisGrotesqueArabicPro-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'ProximaNovaCond_Black';
+    src: url('./Utils/fonts/FontsFree-Net-Proxima-Nova-Cond-Black.otf');
+}
+
+@font-face {
+    font-family: 'Helvic';
+    src: url('./Utils/fonts/HelveticaNeueLTW0693BlkExtObl.ttf');
+    src: url('./Utils/fonts/HelveticaNeueLTW0697BlkCnObl.ttf');
+    src: url('./Utils/fonts/HelveticaNeueMediumExtended.ttf');
+    src: url('./Utils/fonts/HelveticaNeueUltraLight.ttf');
+    src: url('./Utils/fonts/HelveticaNeueW0166MediuIt.ttf');
+    src: url('./Utils/fonts/HelveticaNeueW0187HvCnObl.ttf');
+    src: url('./Utils/fonts/HelveticaNeueW07BdCnObl.ttf');
+}
+
+@font-face {
+    font-family: 'proxima';
+    /* src: url('./Utils/fonts/Fontspring-DEMO-proximanova-black.otf'); */
+    /* src: url('./Utils/fonts/Fontspring-DEMO-proximanova-blackit.otf'); */
+    src: url('./Utils/fonts/Fontspring-DEMO-proximanova-bold.otf');
+    /* src: url('./Utils/fonts/Fontspring-DEMO-proximanova-boldit.otf'); */
+    /* src: url('./Utils/fonts/Fontspring-DEMO-proximanova-extrabold.otf'); */
+    /* src: url('./Utils/fonts/Fontspring-DEMO-proximanova-extraboldit.otf'); */
+    /* src: url('./Utils/fonts/Fontspring-DEMO-proximanova-light.otf'); */
+    /* src: url('./Utils/fonts/Fontspring-DEMO-proximanova-lightit.otf'); */
+    /* src: url('./Utils/fonts/Fontspring-DEMO-proximanova-medium.otf'); */
+    /* src: url('./Utils/fonts/Fontspring-DEMO-proximanova-mediumit.otf'); */
+    /* src: url('./Utils/fonts/Fontspring-DEMO-proximanova-regular.otf'); */
+    /* src: url('./Utils/fonts/Fontspring-DEMO-proximanova-regularit.otf'); */
+    /* src: url('./Utils/fonts/Fontspring-DEMO-proximanova-semibold.otf'); */
+    /* src: url('./Utils/fonts/Fontspring-DEMO-proximanova-semiboldit.otf'); */
+    /* src: url('./Utils/fonts/Fontspring-DEMO-proximanova-thin.otf'); */
+    /* src: url('./Utils/fonts/Fontspring-DEMO-proximanova-thinit.otf'); */
+}
+
+@font-face {
+    font-family: 'proxima1';
+    /* src: url('./Utils/fonts/Fontspring-DEMO-proximanovacond-black.otf'); */
+    /* src: url('./Utils/fonts/Fontspring-DEMO-proximanovacond-blackit.otf'); */
+    src: url('./Utils/fonts/Fontspring-DEMO-proximanovacond-bold.otf');
+    /* src: url('./Utils/fonts/Fontspring-DEMO-proximanovacond-boldit.otf'); */
+    /* src: url('./Utils/fonts/Fontspring-DEMO-proximanovacond-extrabold.otf'); */
+    /* src: url('./Utils/fonts/Fontspring-DEMO-proximanovacond-extraboldit.otf'); */
+    /* src: url('./Utils/fonts/Fontspring-DEMO-proximanovacond-light.otf'); */
+    /* src: url('./Utils/fonts/Fontspring-DEMO-proximanovacond-lightit.otf'); */
+    /* src: url('./Utils/fonts/Fontspring-DEMO-proximanovacond-medium.otf'); */
+    /* src: url('./Utils/fonts/Fontspring-DEMO-proximanovacond-mediumit.otf'); */
+    /* src: url('./Utils/fonts/Fontspring-DEMO-proximanovacond-regular.otf'); */
+    /* src: url('./Utils/fonts/Fontspring-DEMO-proximanovacond-regularit.otf'); */
+    /* src: url('./Utils/fonts/Fontspring-DEMO-proximanovacond-semibold.otf'); */
+    /* src: url('./Utils/fonts/Fontspring-DEMO-proximanovacond-semiboldit.otf'); */
+    /* src: url('./Utils/fonts/Fontspring-DEMO-proximanovacond-thin.otf'); */
+    /* src: url('./Utils/fonts/Fontspring-DEMO-proximanovacond-thinit.otf'); */
+}
+
+@font-face {
+    font-family: 'proxima2';
+    src: url('./Utils/fonts/Fontspring-DEMO-proximanovaexcn-black.otf');
+    src: url('./Utils/fonts/Fontspring-DEMO-proximanovaexcn-blackit.otf');
+    src: url('./Utils/fonts/Fontspring-DEMO-proximanovaexcn-bold.otf');
+    src: url('./Utils/fonts/Fontspring-DEMO-proximanovaexcn-boldit.otf');
+    src: url('./Utils/fonts/Fontspring-DEMO-proximanovaexcn-extrabold.otf');
+    src: url('./Utils/fonts/Fontspring-DEMO-proximanovaexcn-extraboldit.otf');
+    src: url('./Utils/fonts/Fontspring-DEMO-proximanovaexcn-light.otf');
+    src: url('./Utils/fonts/Fontspring-DEMO-proximanovaexcn-lightit.otf');
+    src: url('./Utils/fonts/Fontspring-DEMO-proximanovaexcn-medium.otf');
+    src: url('./Utils/fonts/Fontspring-DEMO-proximanovaexcn-mediumit.otf');
+    src: url('./Utils/fonts/Fontspring-DEMO-proximanovaexcn-regular.otf');
+    src: url('./Utils/fonts/Fontspring-DEMO-proximanovaexcn-regularit.otf');
+    src: url('./Utils/fonts/Fontspring-DEMO-proximanovaexcn-semibold.otf');
+    src: url('./Utils/fonts/Fontspring-DEMO-proximanovaexcn-semiboldit.otf');
+    src: url('./Utils/fonts/Fontspring-DEMO-proximanovaexcn-thin.otf');
+    src: url('./Utils/fonts/Fontspring-DEMO-proximanovaexcn-thinit.otf');
+}
+
+@font-face {
+    font-family: 'ariel';
+    src: url('./Utils/fonts/arial.ttf');
+}
